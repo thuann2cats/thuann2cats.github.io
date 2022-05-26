@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Film Finder</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>🍿 Film Finder 🍿</header>
+    <div id="choose-genre">
+        <form>
+            <label for="genre-selection">Choose a genre:</label>
+            <select id="genre-selection"></select>
+            <button id="play-button">Let's Play!</button>
+        </form>
+    </div>
+    <div id="likeOrDislikeBtns" hidden>
+        <button id="likeBtn"><i class="fa-solid fa-thumbs-up"></i>Like</button>
+        <button id="dislikeBtn"><i class="fa-solid fa-thumbs-down"></i>Dislike</button>
+      </div>
+    <div id="movieInfo">
+        <div id="moviePoster"></div>
+        <div id="movieText"></div>
+      </div>
+     
+</body>
+</html>

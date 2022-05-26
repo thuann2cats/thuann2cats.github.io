@@ -1,0 +1,115 @@
+/* body * {
+    border: 1px solid blue;
+} */
+
+body {
+    background-color: brown;
+    text-align: center;
+}
+
+header {
+    font-size: 4.5rem;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+#choose-genre label, #choose-genre select, #choose-genre button {
+    display: block;
+}
+
+#choose-genre label {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#choose-genre select {
+    margin: auto;
+    margin-bottom: 15px;
+    width: 150px;
+}
+
+#choose-genre button {
+    margin: auto;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+#movieInfo {
+    width:  90%;
+    margin:  32px auto;
+    display: flex;
+}
+
+/* #movieInfo:after {
+    content:  "";
+    display:  table;
+    clear:  both;
+} */
+
+#moviePoster {
+    width:  40%;
+    /* float:  left; */
+}
+
+#movieText {
+    width:  60%;
+    /* float:  left; */
+}
+
+#moviePoster img {
+    width:  100%;
+    height:  auto;
+    display:  block;
+    margin:  auto;
+}
+
+#movieText {
+    font-family: 'Questrial';
+    color: #FEFBEA;
+    line-height: 1.25;
+}
+
+#movieTitle {
+    margin-top:  0;
+}
+
+#movieOverview {
+    padding:  20px;
+}
+
+#likeOrDislikeBtns {
+    text-align: center;
+    margin: 0px auto;  
+}
+
+#likeBtn, #dislikeBtn {
+    padding: 5px 5px;
+    font-size: 25px;
+    border-radius: 12px;
+    border-style: none;
+    cursor:  pointer;
+}
+
+#likeBtn {
+    background-color: #249e57;
+    color: darkgreen;
+}
+
+#dislikeBtn {
+    background-color: #c74a4a;
+    color: #910000;
+}
+
+#play-button {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #B97828;
+    color: #fdc238;
+    cursor:  pointer;
+}
